@@ -24,7 +24,6 @@
 # Archivos temporales y de respaldo
 *~
 *.bak
-
 # Carpetas generadas (puedes ajustar según tu estructura de carpetas)
 out/
 auto/
