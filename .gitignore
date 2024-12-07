@@ -1,0 +1,31 @@
+# Archivos generados por LaTeX
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.glo
+*.idx
+*.ilg
+*.ind
+*.maf
+*.mtc
+*.mtc1
+*.synctex.gz
+*.bcf
+*.fls
+*.fdb_latex
+*.fdb_latexmk
+*.xml
+# Archivos temporales y de respaldo
+*~
+*.bak
+
+# Carpetas generadas (puedes ajustar según tu estructura de carpetas)
+out/
+auto/
+
