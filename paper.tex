@@ -105,20 +105,131 @@ la información en alfabetos extremadamente grandes, haciendo la intercepción i
 hasta la fecha realizada manualmente por personas, imposible dado que no era factible
 lograr las traducciones al alfabeto normal en un tiempo razonablemente humano; por los factores anteriores
 el ejercito liderado por Hitler confió en este sistema. 
-Los mensajes una vez "Traducidos" serián escritos en codigo Morse para ser 
+Los mensajes una vez  Traducidos  serián escritos en codigo Morse para ser 
 transmitodo de forma inalámbrica, lo cual no traía vulnerabilidades a los alemanes por su seguridad.
 
-Al principio de cada mes se repartía un manual con la nueva configuración de las máquinas, 
+Existián en varios sectores, asi como distintas versiones de esta como el de la  Wehrmacht los utilizados en la Marina
+por los U-Boots, sienda esta en la quie se enfocaría Turing por descrifrar. Algunos de los componentes de ellas debian ser reconfigurados cada ciertos periodos de tiempo, que variaban dependiendo
+del rotor, fuerza militar y momento de la guerra aumentanto la frecuencia de estos, con el fin de aumentar 
+la complejidad a los adversarios para su rotura, esto le dio una clara ventaja al inicio de la Guerra
+para desarrollar sus principios de guerra rapida (blitzkrieg). % Anadir ref wiki 
 
 
+
+\subsubsection{Hablando sobre la máquina}
 
   
 
+El artilugio tiene una apariencia muy similar con una máquina de escribir de la época,
+en ella se diferencian
+los siguientes componentes de interés:
+\begin{itemize}
+    \item El teclado de escritura
+    \item  Rotores (o Ruedas)
+    \item Tablero de Conexiones (Steckerbrett)
+    \item  Reflector (Umkehrwalze)
+    \item Ajustes de la Máquina (Ringstellung)
+    \item Teclado de luces (lampboard)
+    \item  Indicador
+\end{itemize}
  
+% Insertar foto de la enigma
 
+En su funcionamiento al ser presionada una tecla en el teclado de escritura un
+impulso electrico viaja desde la 
+tecla presionada hasta su análoga en la tabla de conexiones, de donde se redirecciona
+esta a los rotores, inicialmente configurados, donde por su propia configuración
+una letra x podia transformarse en una letra y, además que pulsar repetidamente la misma letra
+hacia que se trajera en otra distinta de la anterior finalmente en el teclado de luces encriptada.
+Haciendo que teniendo la máquina debidamente configurada escribir el mensaje encriptado anteriormente
+en esta hacia salir el mensaje real por el teclado de luces.
+
+Como se ha comentado antes la unica forma de desencriptar un mensaje es de partiendo de la configuracion
+inicial de la máquina con la que fue encriptada, en dicha configuración esta involucrado el Tablero de Conexiones
+y Los Rotores
+
+
+\subsubsection{Tabla de conexiones}
+El tablero de conexiones (Steckerbrett) ,
+era un componente fundamental de la máquina Enigma que añadía una capa adicional
+de complejidad al proceso de cifrado. Su función principal era intercambiar pares
+de letras antes de que la corriente eléctrica pasara a los rotores, lo que aumentaba
+significativamente la seguridad del cifrado.
+
+El Steckerbrett estaba situado en la parte frontal de la máquina y consistía
+en un panel con 26 sockets, una para cada letra del alfabeto. 
+El operador utilizaba cables con conectores dobles para unir pares de letras en el tablero.
+Ejemplo: Si el operador conectaba las letras  A  y  C  en el tablero de conexiones,
+ al presionar la tecla  A  en el teclado, la corriente eléctrica primero se dirigía
+  a la posición  C  en el Steckerbrett. A partir de ahí, la corriente seguía su camino
+   normal a través de los rotores y el reflector, como si se hubiera presionado la tecla  C .
+El tablero de conexiones aumentaba la seguridad de Enigma de varias maneras:
+\begin{itemize}
+    \item Mayor número de combinaciones: Cada cable en el Steckerbrett
+    creaba una permutación adicional en el proceso de cifrado.
+    Con diez cables conectados, el número de posibles configuraciones del
+    Steckerbrett era astronómicamente grande.
+    \item Ofuscación de las relaciones entre letras: 
+    El intercambio de letras en el Steckerbrett dificultaba 
+    el análisis de frecuencia de letras, una técnica comúnmente 
+    utilizada por los criptoanalistas para descifrar códigos.
+    \item Carácter recíproco: La conexión de pares de letras en el Steckerbrett
+    era recíproca. Esto significa que si A se conectaba a C, entonces C también se conectaba a  A . 
+    Aunque esta característica simplificaba la operación para los operadores alemanes, también representaba 
+    una debilidad que los criptoanalistas aliados pudieron explotar.
+\end{itemize}
+
+\subsubsection{Rotores}
+
+Los rotores, también conocidos como ruedas, eran el corazón del mecanismo de cifrado de la máquina Enigma. Su función principal era realizar una serie de sustituciones alfabéticas complejas que convertían la letra presionada en el teclado en una letra diferente, que luego se iluminaba en el tablero de lámparas.
+
+Aquí se describe el funcionamiento de los rotores en detalle:
+
+\begin{enumerate}
+    \item \textbf{Estructura del Rotor:}
+    \begin{itemize}
+        \item \textbf{Núcleo cableado:} Cada rotor consistía en un disco con 26 contactos eléctricos en cada lado, uno para cada letra del alfabeto. En el interior del disco, los contactos de un lado estaban conectados a los del otro lado mediante un intrincado cableado. Este cableado era único para cada rotor y determinaba la sustitución alfabética que realizaba el rotor.
+        \item \textbf{Anillo exterior y muesca:} El rotor tenía un anillo exterior que se podía girar en relación con el núcleo cableado. Este anillo tenía una muesca (o varias muescas en algunos rotores) que desempeñaba un papel crucial en el mecanismo de rotación de los rotores.
+    \end{itemize}
+    
+    \item \textbf{Movimiento Rotatorio:}
+    \begin{itemize}
+        \item \textbf{Avance del rotor derecho:} Cada vez que se presionaba una tecla en el teclado, el rotor de la derecha avanzaba una posición. Este movimiento rotatorio era similar al de un odómetro.
+        \item \textbf{Turnover:} Cuando la muesca del anillo exterior del rotor derecho se alineaba con un punto fijo en la máquina, el rotor del medio avanzaba una posición. Este mecanismo, conocido como "turnover", introducía una mayor complejidad al cifrado, ya que la sustitución alfabética no solo cambiaba con cada pulsación de tecla, sino que también cambiaba a medida que los rotores giraban.
+        \item \textbf{Múltiples turnovers:} En máquinas Enigma más avanzadas, algunos rotores tenían dos muescas, lo que podía provocar que el rotor de la izquierda también avanzara en ciertos puntos, creando un ciclo de rotación aún más complejo.
+    \end{itemize}
+
+    \item \textbf{Interacción con otros componentes:}
+    \begin{itemize}
+        \item \textbf{Tablero de conexiones (Steckerbrett):} Antes de llegar a los rotores, la corriente eléctrica pasaba por el tablero de conexiones, donde se intercambiaban pares de letras. Este proceso de intercambio añadía otra capa de sustitución al cifrado.
+        \item \textbf{Reflector (Umkehrwalze):} Después de pasar por los tres rotores, la corriente eléctrica llegaba al reflector, que la enviaba de vuelta a través de los rotores por una ruta diferente. Este proceso aseguraba que una letra nunca se cifrara como sí misma.
+    \end{itemize}
+
+    \item \textbf{Importancia para la seguridad:}
+    \begin{itemize}
+        \item \textbf{Combinaciones casi ilimitadas:} La combinación de diferentes rotores, sus posiciones iniciales, la configuración del Steckerbrett y el mecanismo de turnover generaba un número astronómicamente grande de combinaciones de cifrado posibles.
+        \item \textbf{Sustituciones dinámicas:} El movimiento rotatorio de los rotores creaba una secuencia de sustituciones alfabéticas que cambiaba constantemente, lo que dificultaba enormemente el descifrado del código mediante análisis de frecuencia u otras técnicas convencionales.
+    \end{itemize}
+\end{enumerate}
+
+
+
+
+
+\subsubsection{}
 
 
 \printbibliography
 
 
 \end{document}
+
+%%
+%Citations:
+%[1] https://www.youtube.com/watch?v=XK_1gUo8YDE
+%[2] https://www.bbc.com/mundo/noticias-55238523
+%[3] https://www.curistoria.com/2020/04/como-funcionaba-la-maquina-enigma.html
+%[4] https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)
+%[5] https://es.wikipedia.org/wiki/M%C3%A1quina_de_rotores
+%[6] https://www.todolibroantiguo.es/criptografia-libros-antiguos/maquina.html
+%
