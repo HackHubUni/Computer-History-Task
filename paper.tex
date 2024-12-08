@@ -86,7 +86,7 @@ poder decodificar el sistema empleado por los alemanes para el envío de mensaje
 \subsection{La historia de la Máquina Enigma}
 
 Dado que ya desde la Primera Guerra Mundial, Reino Unido 
-habia interceptado mensajes secretos del bando teuton, como en 
+habia interceptado mensajes secretos del bando teutón, como en 
 1916 cuando el comandante de la operación de señales alemana en Oriente 
 Medio envió un mensaje borracho a todos sus operadores deseándoles una 
 Feliz Navidad. Con poca otra actividad ocurriendo durante el 
@@ -177,13 +177,13 @@ impulso electrico viaja desde la
 tecla presionada hasta su análoga en la tabla de conexiones, de donde se redirecciona
 esta a los rotores, inicialmente configurados, donde por su propia configuración
 una letra x podia transformarse en una letra y, además que pulsar repetidamente la misma letra
-hacia que se trajera en otra distinta de la anterior finalmente en el teclado de luces encriptada.
-Haciendo que teniendo la máquina debidamente configurada escribir el mensaje encriptado anteriormente
+hacia que se cambiaba por otra distinta de la anterior finalmente en el teclado de luces encriptada.
+Haciendo necesario tener la máquina debidamente configurada para escribir el mensaje encriptado anteriormente,
 en esta hacia salir el mensaje real por el teclado de luces.
 
-Como se ha comentado antes la unica forma de desencriptar un mensaje es de partiendo de la configuracion
-inicial de la máquina con la que fue encriptada, en dicha configuración esta involucrado el Tablero de Conexiones
-y Los Rotores
+Como se ha comentado antes la única forma de desencriptar un mensaje es de partiendo de la configuracion
+inicial de la máquina con la que fue encriptada, en dicha configuración esta involucrado la \textbf{ Tabla de Conexiones}
+y \textbf{Los Rotores}
 
 
 \subsubsection{Tabla de conexiones}
@@ -456,7 +456,7 @@ superar los desafíos que presentaba Enigma.
 \subsubsection{El Modelo de la Máquina de Turing como Marco Conceptual}
 
 En 1936, mucho antes del estallido de la Segunda Guerra Mundial,
-Alan Turing publicó su influyente artículo "On Computable Numbers, with an Application to the Entscheidungsproblem"\cite{AlanTuringEnigmaO}, donde introdujo el concepto de la máquina de Turing. Este modelo matemático abstracto no representaba una máquina física real, sino una hipotética capaz de ejecutar cualquier cálculo que pudiera ser descrito mediante un algoritmo. La máquina de Turing, con su capacidad de manipular símbolos en una cinta infinita de acuerdo con un conjunto de reglas preestablecidas, sentó las bases de la informática moderna.
+Alan Turing publicó su influyente artículo \textbf{On Computable Numbers, with an Application to the Entscheidungsproblem}\cite{AlanTuringEnigmaO}, donde introdujo el concepto de la máquina de Turing. Este modelo matemático abstracto no representaba una máquina física real, sino una hipotética capaz de ejecutar cualquier cálculo que pudiera ser descrito mediante un algoritmo. La máquina de Turing, con su capacidad de manipular símbolos en una cinta infinita de acuerdo con un conjunto de reglas preestablecidas, sentó las bases de la informática moderna.
 Aunque el artículo de Turing de 1936 no se enfocaba directamente en el descifrado,
 sí estableció una base fundamental para comprender la naturaleza algorítmica de los procesos,
 incluyendo el cifrado. Al reconocer que el cifrado podía ser descompuesto en una secuencia finita
@@ -474,25 +474,27 @@ que presentaba este complejo sistema de cifrado.
 
 El desafío del descifrado se reducía esencialmente a buscar exhaustivamente la configuración correcta de los rotores y del tablero de conexiones. El número total de combinaciones era astronómicamente alto, lo que hacía impráctica una búsqueda manual. Turing comprendió que este proceso podía ser descrito algorítmicamente, descomponiéndolo en operaciones lógicas. Esta descomposición era esencial para el diseño de la Bombe, que ejecutaba un algoritmo para probar sistemáticamente combinaciones y comparar salidas con fragmentos conocidos del mensaje.
 
-\subsection{``Cribs'' y ``Rizos'': Explotación de Patrones y Simetría}
+\subsection{\textbf{Cribs} y \textbf{Rizos}: Explotación de Patrones y Simetría}
 
 Turing no solo diseñó el algoritmo; también identificó maneras para reducir el espacio de búsqueda.
-Utilizando ``cribs'', fragmentos predecibles en los mensajes cifrados (como saludos militares),
+Utilizando \textbf{cribs}, fragmentos predecibles en los mensajes cifrados (como saludos militares),
 logró proporcionar puntos iniciales para la búsqueda algorítmica. 
-Además, aprovechó patrones repetitivos en el mapeo de letras (``rizos''), 
+Además, aprovechó patrones repetitivos en el mapeo de letras (\textbf{rizos}), 
 lo que permitió simplificar la búsqueda y optimizar el algoritmo.\cite{AlanTuringEnigmaO}
 
 \subsection{El Escaneo Paralelo: Acelerando la Búsqueda Exhaustiva}
 
-Para acelerar el descifrado, Turing incorporó el concepto del ``escaneo paralelo''.\cite{AlanTuringEnigmaO} 
+Para acelerar el descifrado, Turing incorporó el concepto del \textbf{escaneo paralelo}.\cite{AlanTuringEnigmaO} 
 En lugar de probar configuraciones secuencialmente, la Bombe simulaba múltiples máquinas Enigma simultáneamente. 
 Este enfoque permitió un considerable aumento en la velocidad del descifrado.
 
 \subsubsection{Probabilidad y Optimización}
 
 Turing también aplicó conceptos probabilísticos en el diseño de la Bombe para priorizar configuraciones 
-más probables basándose en frecuencias y datos obtenidos de los ``cribs''. Esta combinación optimizó aún
- más el proceso, maximizando la eficiencia en un contexto bélico crítico.\cite{AlanTuringEnigmaO}
+más probables basándose en frecuencias y datos obtenidos de los \textbf{cribs}. 
+Esta combinación optimizó aún
+más el proceso, maximizando la eficiencia en un contexto 
+bélico crítico.\cite{AlanTuringEnigmaO}
 
 A través de estas innovaciones, Alan Turing no solo contribuyó al éxito militar aliado durante la Segunda 
 Guerra Mundial, sino que también sentó las bases para el desarrollo posterior de la computación moderna.
@@ -508,7 +510,8 @@ Guerra Mundial, sino que también sentó las bases para el desarrollo posterior 
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{Entrada de datos:} Los criptoanalistas proporcionaban a los operadores de la Bombe 
+    \item \textbf{Entrada de datos:} Los criptoanalistas 
+    proporcionaban a los operadores de la Bombe 
     un "menú" que sugería posibles equivalencias entre letras en claro y letras cifradas. Estos menús 
     se basaban en el análisis de mensajes Enigma interceptados y en el conocimiento de las prácticas 
     operativas alemanas.\cite{EnigmaC}
@@ -528,10 +531,10 @@ Guerra Mundial, sino que también sentó las bases para el desarrollo posterior 
 
 \textbf{Puntos adicionales:}
 \begin{itemize}
-    \item La incorporación del "tablero diagonal" de Gordon Welchman en agosto de 1940 mejoró 
+    \item La incorporación del \textbf{menú} de Gordon Welchman en agosto de 1940 mejoró 
     significativamente la velocidad de la Bombe. Esta innovación explotaba la reciprocidad de 
-    las encripciones de Enigma: si la letra "P" se cifraba como "C", entonces "C" también se cifraba 
-    como "P". Al probar ambas posibilidades simultáneamente, el proceso de búsqueda se aceleró considerablemente.\cite{EnigmaC}
+    las encripciones de Enigma: si la letra \textbf{P} se cifraba como \textbf{C}, entonces \textbf{C} también se cifraba 
+    como \textbf{P}. Al probar ambas posibilidades simultáneamente, el proceso de búsqueda se aceleró considerablemente.\cite{EnigmaC}
     
     \item A partir de septiembre de 1943, la sección de Hut 8, dedicada a descifrar la Enigma naval, 
     no tuvo más problemas importantes para romper los cifrados. Este éxito se debió en gran parte a 
@@ -548,53 +551,81 @@ Guerra Mundial, sino que también sentó las bases para el desarrollo posterior 
     \label{fig:mi-imagen}
 \end{figure}
 Aunque Alan Turing no participó directamente en el diseño y construcción de Colossus,
- **sus ideas y trabajos previos en Bletchley Park fueron cruciales para la creación del proyecto**. 
- Colossus, la primera computadora electrónica digital a gran escala del mundo, se construyó para 
- descifrar mensajes cifrados por la máquina Lorenz SZ40/42a/42b (Tunny), utilizada por el alto mando alemán.\cite{ColossusO}
+sus ideas y trabajos previos en Bletchley Park fueron cruciales para la creación del proyecto. 
+Colossus, la primera computadora electrónica digital a gran escala del mundo, se construyó para 
+descifrar mensajes cifrados por la máquina \textbf{Lorenz SZ40/42a/42b} (Tunny), utilizada 
+por el alto mando alemán.\cite{ColossusO}
 
-Estos son algunos de los aportes de Turing que sentaron las bases para Colossus:
+Estos son algunos de los aportes de Turing que 
+sentaron las bases para Colossus:
 
 \begin{itemize}
-    \item \textbf{Desarrollo de "Turingery" (Turingismus):} Este método manual, 
-    inventado por Turing en 1942, permitía descifrar los patrones de las ruedas de la máquina 
-    Tunny utilizando un fragmento de clave obtenido de una "profundidad" 
-    (mensajes con la misma configuración). Si bien Turingery era efectivo, era un proceso 
-    laborioso y requería mucho tiempo. La necesidad de automatizar este proceso para hacerlo 
-    más eficiente impulsó el desarrollo de Colossus.\cite{ColossusO}\cite{AlanTuringEnigmaO}
+    \item \textbf{Desarrollo de "Turingery" (Turingismus):} Este 
+    método manual, 
+    inventado por Turing en 1942, permitía descifrar 
+    los patrones de las ruedas de la máquina 
+    Tunny utilizando un fragmento de clave obtenido de 
+    una "profundidad" 
+    (mensajes con la misma configuración). Si bien Turingery 
+    era efectivo, era un proceso 
+    laborioso y requería mucho tiempo. La necesidad de 
+    automatizar este proceso para hacerlo 
+    más eficiente impulsó el desarrollo de 
+    Colossus.\cite{ColossusO}\cite{AlanTuringEnigmaO}
     
-    \item \textbf{Introducción del concepto de "Delta":} Turing descubrió que calcular el "delta" 
-    de una secuencia de caracteres, es decir, sumar cada par de letras adyacentes utilizando las 
-    reglas de la suma binaria, era crucial para el éxito de Turingery. Este concepto se incorporó 
-    en el diseño de Colossus, permitiendo a la máquina analizar los mensajes de Tunny de manera más eficaz.\cite{ColossusO}\cite{AlanTuringEnigmaO}
+    \item \textbf{Introducción del concepto de "Delta":} Turing 
+    descubrió que calcular el "delta" 
+    de una secuencia de caracteres, es decir, sumar cada 
+    par de letras adyacentes utilizando las 
+    reglas de la suma binaria, era crucial para el éxito 
+    de Turingery. Este concepto se incorporó 
+    en el diseño de Colossus, permitiendo a la máquina 
+    analizar los mensajes de Tunny de manera más 
+    eficaz.\cite{ColossusO}\cite{AlanTuringEnigmaO}
     
-    \item \textbf{Inspiración para la mecanización:} El éxito de Turing en la ruptura de Enigma mediante la Bombe, 
-    una máquina electromecánica que él diseñó, inspiró a Max Newman, líder de la sección dedicada a Tunny 
-    (la "Newmanry"), a buscar una solución mecanizada para descifrar los mensajes de Tunny. Colossus nació 
-    de la necesidad de procesar la gran cantidad de datos que generaba Tunny, un problema que Turing ya había 
+    \item \textbf{Inspiración para la mecanización:} El éxito 
+    de Turing en la ruptura de Enigma mediante la Bombe, 
+    una máquina electromecánica que él diseñó, inspiró 
+    a Max Newman, líder de la sección dedicada a Tunny 
+    (la "Newmanry"), a buscar una solución mecanizada 
+    para descifrar los mensajes de Tunny. Colossus nació 
+    de la necesidad de procesar la gran cantidad de datos 
+    que generaba Tunny, un problema que Turing ya había 
     abordado con la Bombe.\cite{ColossusO}\cite{AlanTuringEnigmaO}
 \end{itemize}
 
-**La superioridad de Colossus en la guerra se debió a su velocidad y capacidad de procesamiento 
-sin precedentes.** A diferencia de la Bombe, que era electromecánica, Colossus utilizaba válvulas 
+La superioridad de Colossus en la guerra se debió a su velocidad y capacidad de procesamiento 
+sin precedentes. A diferencia de la Bombe, que era electromecánica, Colossus utilizaba válvulas 
 termoiónicas (tubos de vacío), lo que le permitía realizar cálculos a una velocidad mucho mayor. 
 Colossus II, por ejemplo, podía procesar 25.000 caracteres alfabéticos por segundo, 125 veces la
  velocidad de los procesadores mecánicos.\cite{ColossusO}
 
-**La información obtenida gracias a Colossus tuvo un impacto significativo en el curso de la guerra.
-** Permitió a los aliados anticiparse a los movimientos y estrategias del alto mando alemán, 
-obteniendo una ventaja crucial en varios frentes.\cite{ColossusO} Algunos ejemplos del impacto de Colossus son:
+La información obtenida gracias a Colossus tuvo un 
+impacto significativo en el curso de la guerra.
+Permitió a los aliados anticiparse a los movimientos 
+y estrategias del alto mando alemán, 
+obteniendo una ventaja crucial en varios 
+frentes.\cite{ColossusO} Algunos ejemplos del 
+impacto de Colossus son:
 
 \begin{itemize}
-    \item \textbf{Información sobre el Día D:} Colossus proporcionó a los aliados 
-    información detallada sobre las defensas alemanas en Normandía, lo que contribuyó 
-    al éxito del desembarco y al avance de las fuerzas aliadas en Francia.\cite{ColossusO}
+    \item \textbf{Información sobre el Día D:} Colossus 
+    proporcionó a los aliados 
+    información detallada sobre las defensas alemanas en 
+    Normandía, lo que contribuyó 
+    al éxito del desembarco y al avance de las fuerzas 
+    aliadas en Francia.\cite{ColossusO}
     
     \item \textbf{Conocimiento de las operaciones en el Frente Oriental:} Colossus descifró 
-    mensajes que revelaban la disposición de las unidades alemanas en el Frente Oriental, 
-    información que se compartió con los soviéticos, aunque sin revelar la fuente.\cite{ColossusO}
+    mensajes que revelaban la disposición de las unidades 
+    alemanas en el Frente Oriental, 
+    información que se compartió con los soviéticos, aunque 
+    sin revelar la fuente.\cite{ColossusO}
     
     \item \textbf{Seguimiento de las comunicaciones de alto nivel:} Colossus permitió a los 
-    aliados interceptar y descifrar mensajes del propio Hitler, obteniendo información estratégica de gran valor.\cite{ColossusO}
+    aliados interceptar y descifrar mensajes del propio
+    Hitler, obteniendo información estratégica de gran 
+    valor.\cite{ColossusO}
 \end{itemize}
 
 
@@ -660,8 +691,8 @@ de las ciencias de la computación.
 
 \begin{itemize}
     \item \textbf{Máquina de Turing:} En 1936, antes de la guerra, Turing publicó un 
-    artículo titulado *Sobre los números computables, con una aplicación al problema 
-    de decisión*, en el que introdujo el concepto de la \textbf{Máquina de Turing}. 
+    artículo titulado \textbf{Sobre los números computables, con una aplicación al problema 
+    de decisión}, en el que introdujo el concepto de la \textbf{Máquina de Turing}. 
     Esta máquina, aunque teórica, se considera el modelo fundamental de la computación moderna, 
     ya que define un proceso mecánico capaz de ejecutar cualquier algoritmo matemático. 
     Este trabajo sentó las bases para la teoría de la computabilidad y el desarrollo de las computadoras.
@@ -693,7 +724,7 @@ de las ciencias de la computación.
     
     \item \textbf{Ideas sobre inteligencia artificial:} Turing también fue un 
     pionero en el campo de la inteligencia artificial. En 1950, publicó un 
-    artículo titulado *Computing Machinery and Intelligence* en el que propuso 
+    artículo titulado \textbf{Computing Machinery and Intelligence} en el que propuso 
     el famoso \textbf{Test de Turing}, una prueba para determinar si una máquina 
     puede exhibir un comportamiento inteligente indistinguible del de un ser humano. 
     Este trabajo, junto con sus ideas sobre la posibilidad de que las máquinas aprendan 
@@ -709,8 +740,8 @@ procesos mecánicos lo convierten en uno de los padres fundadores de la informá
 \section{El reconocimiento tardío del legado de Turing en la lucha contra el fascismo}
 
 El reconocimiento del papel crucial que jugó Alan Turing en la lucha contra el fascismo 
-se vio **opacado por el secretismo que rodeaba su trabajo en Bletchley Park y por la 
-persecución que sufrió debido a su homosexualidad**.
+se vio opacado por el secretismo que rodeaba su trabajo en Bletchley Park y por la 
+persecución que sufrió debido a su homosexualidad.
 
 \begin{itemize}
     \item \textbf{Secretismo:} La información sobre el descifrado de Enigma y el 
@@ -718,7 +749,7 @@ persecución que sufrió debido a su homosexualidad**.
     después de la guerra. Este secretismo impidió que el público conociera la 
     magnitud de su contribución a la victoria aliada.
     
-    \item \textbf{Homosexualidad:} Turing fue condenado en 1952 por "indecencia grave" 
+    \item \textbf{Homosexualidad:} Turing fue condenado en 1952 por indecencia grave 
     debido a su homosexualidad, lo que le impidió continuar con su trabajo científico y 
     lo sometió a una castración química. Esta condena y el estigma asociado a su 
     homosexualidad oscurecieron su figura y contribuyeron a que su legado no se 
@@ -733,8 +764,8 @@ persecución que sufrió debido a su homosexualidad**.
     permitió una reevaluación de su figura y una mayor comprensión de su importancia en la guerra.
     
     \item \textbf{Disculpas oficiales:} En 2009, el primer ministro británico 
-    Gordon Brown se disculpó en nombre del gobierno por el trato "absolutamente 
-    injusto" que recibió Turing. En 2013, la reina Isabel II le otorgó un indulto real póstumo.
+    Gordon Brown se disculpó en nombre del gobierno por el trato absolutamente 
+    injusto que recibió Turing. En 2013, la reina Isabel II le otorgó un indulto real póstumo.
 \end{itemize}
 
 \textbf{Un legado complejo:}

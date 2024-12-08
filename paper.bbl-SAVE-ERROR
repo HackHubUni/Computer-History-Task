@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Wikipedia:V2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{1}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vergeltungswaffe 2}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/Cohete_V2
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/Cohete_V2
+      \endverb
+    \endentry
     \entry{Wikipedia:WorldWarIIWiki}{online}{}
       \name{author}{1}{}{%
         {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
@@ -33,6 +61,7 @@
       \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
       \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
       \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{2}
       \field{sortinit}{c}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -44,6 +73,222 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/wiki/World_War_II
+      \endverb
+    \endentry
+    \entry{Colossus2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b527972a3908282d5e4210325e3022c0}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={B\bibnamedelima Jack},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{fullhash}{b527972a3908282d5e4210325e3022c0}
+      \strng{bibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorbibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authornamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorfullhash}{b527972a3908282d5e4210325e3022c0}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The American ENIAC is customarily regarded as the first electronic computer. In this fascinating volume, Jack Copeland rewrites the history of computer science, arguing that in reality Colossus--the giant computer built in Bletchley Park by the British secret service during World War II--predates ENIAC by two years. Until very recently, much about the Colossus machine was shrouded in secrecy, largely because the code-breaking algorithms employed during World War II remained in use by the British security services until a short time ago. Copeland has brought together memoirs of veterans of Bletchley Park--the top-secret headquarters of Britain's secret service--and others who draw on the wealth of declassified information to illuminate the crucial role Colossus played during World War II. A must read for anyone curious about code-breaking or World War II espionage, Colossus offers a fascinating insider's account of the world's first giant computer, the great-great-grandfather of the massive computers used today by the CIA and the National Security Agency.}
+      \field{chapter}{2}
+      \field{isbn}{9780192840554}
+      \field{month}{02}
+      \field{title}{Colossus: The secrets of Bletchley Park's code-breaking computers}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+    \endentry
+    \entry{Colossus1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b527972a3908282d5e4210325e3022c0}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={B\bibnamedelima Jack},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{fullhash}{b527972a3908282d5e4210325e3022c0}
+      \strng{bibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorbibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authornamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorfullhash}{b527972a3908282d5e4210325e3022c0}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The American ENIAC is customarily regarded as the first electronic computer. In this fascinating volume, Jack Copeland rewrites the history of computer science, arguing that in reality Colossus--the giant computer built in Bletchley Park by the British secret service during World War II--predates ENIAC by two years. Until very recently, much about the Colossus machine was shrouded in secrecy, largely because the code-breaking algorithms employed during World War II remained in use by the British security services until a short time ago. Copeland has brought together memoirs of veterans of Bletchley Park--the top-secret headquarters of Britain's secret service--and others who draw on the wealth of declassified information to illuminate the crucial role Colossus played during World War II. A must read for anyone curious about code-breaking or World War II espionage, Colossus offers a fascinating insider's account of the world's first giant computer, the great-great-grandfather of the massive computers used today by the CIA and the National Security Agency.}
+      \field{chapter}{1}
+      \field{isbn}{9780192840554}
+      \field{month}{02}
+      \field{title}{Colossus: The secrets of Bletchley Park's code-breaking computers}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+    \endentry
+    \entry{ColossusO}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b527972a3908282d5e4210325e3022c0}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={B\bibnamedelima Jack},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{fullhash}{b527972a3908282d5e4210325e3022c0}
+      \strng{bibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorbibnamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authornamehash}{b527972a3908282d5e4210325e3022c0}
+      \strng{authorfullhash}{b527972a3908282d5e4210325e3022c0}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The American ENIAC is customarily regarded as the first electronic computer. In this fascinating volume, Jack Copeland rewrites the history of computer science, arguing that in reality Colossus--the giant computer built in Bletchley Park by the British secret service during World War II--predates ENIAC by two years. Until very recently, much about the Colossus machine was shrouded in secrecy, largely because the code-breaking algorithms employed during World War II remained in use by the British security services until a short time ago. Copeland has brought together memoirs of veterans of Bletchley Park--the top-secret headquarters of Britain's secret service--and others who draw on the wealth of declassified information to illuminate the crucial role Colossus played during World War II. A must read for anyone curious about code-breaking or World War II espionage, Colossus offers a fascinating insider's account of the world's first giant computer, the great-great-grandfather of the massive computers used today by the CIA and the National Security Agency.}
+      \field{isbn}{9780192840554}
+      \field{month}{02}
+      \field{title}{Colossus: The secrets of Bletchley Park's code-breaking computers}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oso/9780192840554.001.0001
+      \endverb
+    \endentry
+    \entry{EnigmaC}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0d77c4659c2be75a90f1aacfb2d2d0cd}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{fullhash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{bibnamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authorbibnamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authornamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authorfullhash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enigma}
+    \endentry
+    \entry{EnigmaC200s}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0d77c4659c2be75a90f1aacfb2d2d0cd}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{fullhash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{bibnamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authorbibnamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authornamehash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \strng{authorfullhash}{0d77c4659c2be75a90f1aacfb2d2d0cd}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enigma}
+      \field{pages}{200\bibrangedash 300}
+      \range{pages}{101}
+    \endentry
+    \entry{NatGeo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=013f2da262af5d85ad66f8af339fad48}{%
+           family={Geographic},
+           familyi={G\bibinitperiod},
+           given={Natural},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{013f2da262af5d85ad66f8af339fad48}
+      \strng{fullhash}{013f2da262af5d85ad66f8af339fad48}
+      \strng{bibnamehash}{013f2da262af5d85ad66f8af339fad48}
+      \strng{authorbibnamehash}{013f2da262af5d85ad66f8af339fad48}
+      \strng{authornamehash}{013f2da262af5d85ad66f8af339fad48}
+      \strng{authorfullhash}{013f2da262af5d85ad66f8af339fad48}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alan Turing, el arma secreta de los aliados}
+      \verb{urlraw}
+      \verb https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352
+      \endverb
+      \verb{url}
+      \verb https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352
+      \endverb
+    \endentry
+    \entry{AlanTuringEnigmaO}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a84c4cb802a7a09a70e51d231461024d}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Simon}%
+        {Schuster}%
+      }
+      \strng{namehash}{a84c4cb802a7a09a70e51d231461024d}
+      \strng{fullhash}{a84c4cb802a7a09a70e51d231461024d}
+      \strng{bibnamehash}{a84c4cb802a7a09a70e51d231461024d}
+      \strng{authorbibnamehash}{a84c4cb802a7a09a70e51d231461024d}
+      \strng{authornamehash}{a84c4cb802a7a09a70e51d231461024d}
+      \strng{authorfullhash}{a84c4cb802a7a09a70e51d231461024d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780671492076}
+      \field{series}{Touchstone book}
+      \field{title}{Alan Turing: The Enigma}
+      \field{year}{1983}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=BlPZ3sHHWpMC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=BlPZ3sHHWpMC
       \endverb
     \endentry
   \enddatalist
