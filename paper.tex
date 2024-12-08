@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
 \usepackage[backend=biber,style=numeric]{biblatex} % Cambia 'apa' por 'numeric'
 \addbibresource{references.bib} % Indica el nombre de tu archivo .bib
 \usepackage{hyperref} % Permite hipervínculos
@@ -22,18 +23,26 @@
 \setcounter{section}{1}
 
 \section*{Resumen}
-En el contexto de uno de los episodios más significativos
-de la historia humana, la Segunda Guerra Mundial, se evidenció
-la crucial función de las máquinas en la resolución de problemas
-complejos que resultan inalcanzables para el ser humano.
-El desciframiento de los mensajes encriptados por los \textbf{Nazis}
-a través de la \textbf{Máquina Enigma} fue fundamental 
-para poner fin al conflicto. Los esfuerzos conjuntos de 
-naciones de los Aliados como Polonia y el Reino Unido para 
-formar un equipo dedicado a desentrañar estos mensajes, 
-junto con la figura destacada de \textbf{Alan Turing } en
-el diseño y construcción de la máquina que logró desencriptar
-a Enigma, jugaron un papel esencial en el desarrollo
+En el contexto de uno de los episodios más significativos de la historia humana, 
+la \textbf{Segunda Guerra Mundial}, se evidenció la crucial función de las máquinas 
+en la resolución de problemas complejos que resultan inalcanzables para el ser humano. 
+El desciframiento de los mensajes encriptados por los \textbf{nazis} a través de la 
+\textbf{máquina Enigma} fue fundamental para poner fin al conflicto.
+
+Los esfuerzos conjuntos de naciones aliadas, como Polonia y el Reino Unido, para formar 
+un equipo dedicado a desentrañar estos mensajes, junto con la figura destacada de \textbf{Alan Turing} 
+en el diseño y construcción de la máquina que logró desencriptar Enigma, jugaron un papel esencial en 
+el desarrollo de estrategias militares que acortaron la guerra y salvaron innumerables vidas.
+
+La máquina Enigma, inventada por el ingeniero alemán Arthur Scherbius, utilizaba un sistema 
+complejo de rotación que generaba códigos extremadamente difíciles de descifrar. Sin embargo, 
+gracias a los avances en criptografía liderados por Turing y su equipo en Bletchley Park, los 
+aliados pudieron interceptar y entender las comunicaciones alemanas, lo que resultó decisivo 
+en batallas clave como el Desembarco de Normandía.
+
+El trabajo de Turing no solo fue un hito en la historia militar, sino que también sentó las 
+bases para el desarrollo de la computación moderna. Su legado perdura como un testimonio del 
+impacto que la tecnología y el ingenio humano pueden tener en momentos críticos de la historia.
 de los acontecimientos.
 
 \pagebreak % Saltar desde Resumen
@@ -49,32 +58,29 @@ de los acontecimientos.
 \pagebreak % Saltar desde Palabras Clave
 \section*{Contexto Histórico}
 
-Para comenzar a hablar sobre el aporte de Alan Turing en el desciframiento 
-del código Enigma y sus repercusiones futuras en las Ciencias de la Computación 
-debemos situarnos en el contexto Histórico donde se desarrollaron los hechos.
-\linebreak % Espacio entre la aclaracion de pq se hace el resumen histórico y el resto
-Con la Invación a Polonia el 1ero de septiembre de 1939 se 
-dio inicio a la Segunda Guerra Mundial
-por parte de la Alemania dirigida por \textbf{Adolf Hitler} hasta la 
-rendicion del Imperio Japones el 2 de septiembre de 1945\cite{Wikipedia:WorldWarIIWiki}.
-En ella existían dos principales bloques beligerantes: Fascistas y Aliados, donde sus mayores representantes
-fueron, Alemania, Italia y Japón por parte del eje Fascista y La Union Soviética, Estados Unidos de América, China, Francia, Reino Unido y Polonia.
-Este fue el conflicto bélico el cual tiene el título por ser el mayor enfrentamiento 
-del siglo XX y el más desbastador de la historia humana. En el cual se desarrollaron 
-algunas de las batallas mas relevantes de la historia humana como: Kursk, Stalingrado, 
-Leningrado, Okinawa, Invación de Normandía o la 
-Toma de Berín,
-Dunkerque, además de algunos de los mayores horrores de la humanidad como 
-el Holocausto o el Bombaedeo de armas Atómicas a las ciudades japonesas de 
-Hiroshima y Nagasaki, así como la muerte de mas de 60 millones de personas \cite{Wikipedia:WorldWarIIWiki}. Dado la intensidad del conflicto así como
-la fortaleza de los países involucrados la competencia entre ambos bandos
-por el desarrollo tecnológico como el Vergeltungswaffe 2 % CItar v2
-El sistema de Radar y la Máquina Enigma, esta última
-vital para las comunicaciones secretas del ejercito del Führer
+Para comenzar a hablar sobre el aporte de Alan Turing en el desciframiento del 
+código Enigma y sus repercusiones futuras en las Ciencias de la Computación, 
+debemos situarnos en el contexto histórico donde se desarrollaron los hechos.
 
-Dado lo vital que era para el bando Aliado conocer los movimientos 
-de Berlín fue necesario poder decodificar el sistema empleado por
-los Alemanes para el envio de mensajes.
+Con la invasión a Polonia el 1 de septiembre de 1939 se dio inicio a la Segunda 
+Guerra Mundial por parte de Alemania, dirigida por \textbf{Adolf Hitler}, hasta 
+la rendición del Imperio Japonés el 2 de septiembre de 1945\cite{Wikipedia:WorldWarIIWiki}. 
+En ella existían dos principales bloques beligerantes: fascistas y aliados, donde sus mayores 
+representantes fueron Alemania, Italia y Japón por parte del eje fascista, y la Unión Soviética, 
+Estados Unidos de América, China, Francia, Reino Unido y Polonia.
+
+Este fue el conflicto bélico que tiene el título de ser el mayor enfrentamiento del siglo XX y 
+el más devastador de la historia humana. En él se desarrollaron algunas de las batallas más relevantes,
+ como Kursk, Stalingrado, Leningrado, Okinawa, la invasión de Normandía y la toma de Berlín, 
+ además de algunos de los mayores horrores de la humanidad como el Holocausto o el bombardeo 
+ atómico a las ciudades japonesas de Hiroshima y Nagasaki, así como la muerte de más de 60 
+ millones de personas\cite{Wikipedia:WorldWarIIWiki}. Dada la intensidad del conflicto y la 
+ fortaleza de los países involucrados, la competencia entre ambos bandos por el desarrollo 
+ tecnológico fue crucial, incluyendo innovaciones como el Vergeltungswaffe 2, el sistema de 
+ radar y la máquina Enigma; esta última fue vital para las comunicaciones secretas del ejército del Führer.
+
+Dado lo vital que era para el bando aliado conocer los movimientos de Berlín, fue necesario 
+poder decodificar el sistema empleado por los alemanes para el envío de mensajes.
 
 
 \subsection{La historia de la Máquina Enigma}
@@ -127,9 +133,28 @@ del rotor, fuerza militar y momento de la guerra aumentanto la frecuencia de est
 la complejidad a los adversarios para su rotura, esto le dio una clara ventaja al inicio de la Guerra
 para desarrollar sus principios de guerra rapida (blitzkrieg). % Anadir ref wiki 
 
+% Insertar foto de la enigma
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm]{img/inventada-por-un-matematico-polaco-los-alemanes-usaban-la-maquina-enigma-para-codificar-los-mensajes-que-se-enviaban-durante-la-segunda-guerra-mundial_304a26c6_512x800.jpg}
+    \caption{Foto de Máquina Enigma usada durante la contienda milita }
+    \label{fig:mi-imagen}
+\end{figure}
 
 
 \subsubsection{Hablando sobre la máquina}
+
+% Insertar foto de la enigma
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm]{img/maquina_engima.jpg}
+    \caption{Foto de Máquina Enigma con 3 rotores }
+    \label{fig:mi-imagen}
+\end{figure}
 
   
 
@@ -146,7 +171,6 @@ los siguientes componentes de interés:
     \item  Indicador
 \end{itemize}
  
-% Insertar foto de la enigma
 
 En su funcionamiento al ser presionada una tecla en el teclado de escritura un
 impulso electrico viaja desde la 
@@ -388,7 +412,14 @@ Polonia y sus aliados fue un ejemplo brillante de cómo el
 trabajo conjunto puede cambiar el rumbo de la historia.
 
 
-\subsection*{El Aporte de Alan Turing}
+\subsection{El Aporte de Alan Turing}
+% Insertar foto de Turing
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm]{img/turing.jpg}
+    \caption{Alan Turing }
+    \label{fig:mi-imagen}
+\end{figure}
 
 
 En 1939, con el estallido de la Segunda Guerra Mundial, el centro británico de
@@ -447,7 +478,13 @@ A través de estas innovaciones, Alan Turing no solo contribuyó al éxito milit
 
 
 \subsubsection{Funcionamiento de la Bombe}
-
+% Insertar foto de la bombe
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm]{img/bombe.jpg}
+    \caption{Foto de la Bombe }
+    \label{fig:mi-imagen}
+\end{figure}
 
 \begin{itemize}
     \item \textbf{Entrada de datos:} Los criptoanalistas proporcionaban a los operadores de la Bombe un "menú" que sugería posibles equivalencias entre letras en claro y letras cifradas. Estos menús se basaban en el análisis de mensajes Enigma interceptados y en el conocimiento de las prácticas operativas alemanas.
@@ -468,6 +505,13 @@ A través de estas innovaciones, Alan Turing no solo contribuyó al éxito milit
 
 \subsection{Aportes de Turing a Colossus y su Impacto en la Guerra}
 
+% Insertar foto de la colossus
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm]{img/Colossus.jpg}
+    \caption{Foto de la Colossus }
+    \label{fig:mi-imagen}
+\end{figure}
 Aunque Alan Turing no participó directamente en el diseño y construcción de Colossus, **sus ideas y trabajos previos en Bletchley Park fueron cruciales para la creación del proyecto**. Colossus, la primera computadora electrónica digital a gran escala del mundo, se construyó para descifrar mensajes cifrados por la máquina Lorenz SZ40/42a/42b (Tunny), utilizada por el alto mando alemán.
 
 Estos son algunos de los aportes de Turing que sentaron las bases para Colossus:
