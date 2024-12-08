@@ -216,7 +216,7 @@ Aquí se describe el funcionamiento de los rotores en detalle:
         odómetro.
         \item \textbf{Turnover:} Cuando la muesca del anillo exterior del rotor derecho se alineaba 
         con un punto fijo en la máquina, el rotor del medio avanzaba una posición. Este mecanismo, 
-        conocido como "turnover", introducía una mayor complejidad al cifrado, ya que la sustitución 
+        conocido como turnover, introducía una mayor complejidad al cifrado, ya que la sustitución 
         alfabética no solo cambiaba con cada pulsación de tecla, sino que también cambiaba a medida 
         que los rotores giraban.
         \item \textbf{Múltiples turnovers:} En máquinas Enigma más avanzadas, algunos rotores tenían 
@@ -236,7 +236,7 @@ Aquí se describe el funcionamiento de los rotores en detalle:
     \end{itemize}
 \end{enumerate}
 
-%  "Copeland Enigma.pdf".
+%  Copeland Enigma.pdf.
 
 \subsection{Modificaciones}
 
@@ -329,7 +329,7 @@ un cifrado de sustitución simple.
 
 
 Para automatizar y acelerar el proceso de descifrado, los 
-polacos desarrollaron las primeras "bombas", máquinas 
+polacos desarrollaron las primeras bombas, máquinas 
 electromecánicas capaces de probar miles de configuraciones 
 de Enigma en un tiempo relativamente corto. Este avance 
 representó un progreso significativo en el campo del 
@@ -386,43 +386,209 @@ trabajo conjunto puede cambiar el rumbo de la historia.
 
 
 \subsection*{El Aporte de Alan Turing}
-En 1939, cuando estalló la Segunda Guerra Mundial, 
-el centro británico de descifrado de códigos, 
-conocido como GC&CS (Government Code and Cypher 
-School), enfrentaba un desafío monumental. 
-La máquina Enigma, utilizada por los alemanes, 
-generaba códigos cifrados que parecían imposibles 
-de romper debido a su complejidad matemática y 
-técnica. Cada día, los operadores alemanes 
-cambiaban las configuraciones de los rotores y 
-del plugboard de Enigma, lo que generaba 
-aproximadamente 150 trillones de posibles 
-combinaciones. Resolver este problema manualmente 
-era una tarea inviable.
-
-Alan Turing se unió al equipo de Bletchley Park 
-al inicio de la guerra. Aunque el GC&CS ya había 
-recibido valiosa información de los criptógrafos 
-polacos, quienes habían logrado avances 
-preliminares en el descifrado de Enigma, 
-la versión militar alemana era mucho más compleja. 
-La combinación del tablero de conexiones 
-(steckerbrett) y los ajustes diarios de los 
-rotores la hacían significativamente más difícil 
-de descifrar.
-
-Con su enfoque lógico y matemático, Turing 
-fue capaz de abordar el problema de una manera 
-completamente innovadora. En lugar de intentar 
-descifrar manualmente cada mensaje, propuso 
-mecanizar el proceso, sentando las bases para 
-la construcción de la máquina Bombe, diseñada 
-para descifrar rápidamente los mensajes cifrados 
-por Enigma.
 
 
-\printbibliography
+En 1939, con el estallido de la Segunda Guerra Mundial, el centro británico de
+descifrado de códigos, conocido como GC\&CS (Government Code and Cypher School),
+se enfrentaba a un desafío monumental: descifrar los mensajes generados por la 
+máquina Enigma, utilizada por los alemanes. Esta máquina era capaz de crear códigos
+cifrados de gran complejidad, presentando un obstáculo aparentemente insuperable 
+debido a su intrincada mecánica y sofisticación matemática. La principal dificultad 
+radicaba en que los operadores alemanes modificaban diariamente la configuración de 
+los rotores y del plugboard de Enigma, lo que resultaba en aproximadamente 150 trillones 
+de combinaciones posibles. Enfrentarse a semejante número de posibilidades manualmente 
+era una tarea imposible de completar en un tiempo razonable.
 
+Alan Turing se unió al equipo de Bletchley Park al inicio de la guerra. Aunque el GC\&CS 
+ya contaba con información valiosa proporcionada por criptógrafos polacos, quienes habían 
+logrado descifrar versiones anteriores de Enigma, la versión militar alemana presentaba un 
+reto mucho mayor. La inclusión del Steckerbrett (tablero de conexiones) y los cambios diarios 
+en los ajustes de los rotores aumentaban significativamente la dificultad del descifrado.
+
+Turing, con su enfoque lógico y matemático, abordó el problema desde una perspectiva innovadora.
+En lugar de intentar descifrar cada mensaje manualmente, concibió la idea de mecanizar el proceso 
+de descifrado. Este enfoque sentó las bases para la construcción de la máquina Bombe, un dispositivo 
+diseñado específicamente para descifrar con rapidez los mensajes codificados por Enigma.
+
+Es crucial destacar que los polacos ya habían desarrollado una máquina llamada Bomba para descifrar 
+Enigma. Sin embargo, la introducción de dos rotores adicionales en la versión militar alemana por parte 
+de los alemanes la volvió obsoleta. La Bombe de Turing era considerablemente más sofisticada que su
+predecesora polaca y era capaz de manejar la complejidad adicional de la Enigma militar. 
+Alan Turing no solo sentó las bases, sino que fue el principal inventor de la Bombe. 
+La máquina fue construida siguiendo sus especificaciones y se basó en sus ideas para 
+superar los desafíos que presentaba Enigma.
+
+
+\subsubsection{El Modelo de la Máquina de Turing como Marco Conceptual}
+
+En 1936, mucho antes del estallido de la Segunda Guerra Mundial, Alan Turing publicó su influyente artículo "On Computable Numbers, with an Application to the Entscheidungsproblem", donde introdujo el concepto de la máquina de Turing. Este modelo matemático abstracto no representaba una máquina física real, sino una hipotética capaz de ejecutar cualquier cálculo que pudiera ser descrito mediante un algoritmo. La máquina de Turing, con su capacidad de manipular símbolos en una cinta infinita de acuerdo con un conjunto de reglas preestablecidas, sentó las bases de la informática moderna.
+Aunque el artículo de Turing de 1936 no se enfocaba directamente en el descifrado, sí estableció una base fundamental para comprender la naturaleza algorítmica de los procesos, incluyendo el cifrado. Al reconocer que el cifrado podía ser descompuesto en una secuencia finita de pasos lógicos, Turing abrió la posibilidad de automatizar este proceso mediante una máquina. La concepción de Turing de los algoritmos como secuencias operacionales, si bien no se tradujo directamente en el diseño de la Bombe, sí influenció indirectamente en su trabajo posterior en Bletchley Park.
+Es importante entender que la Bombe no fue una simple traducción de la máquina de Turing a una realidad física. La Bombe fue el resultado de la convergencia del conocimiento de Turing sobre los principios de la computación, su talento para el criptoanálisis y su capacidad de aplicar la lógica matemática a problemas del mundo real. La máquina Bombe, diseñada específicamente para descifrar mensajes de Enigma, se basó en las ideas innovadoras de Turing para afrontar los retos que presentaba este complejo sistema de cifrado.
+\subsubsection{Algoritmos y la Búsqueda de la Clave Correcta}
+
+El desafío del descifrado se reducía esencialmente a buscar exhaustivamente la configuración correcta de los rotores y del tablero de conexiones. El número total de combinaciones era astronómicamente alto, lo que hacía impráctica una búsqueda manual. Turing comprendió que este proceso podía ser descrito algorítmicamente, descomponiéndolo en operaciones lógicas. Esta descomposición era esencial para el diseño de la Bombe, que ejecutaba un algoritmo para probar sistemáticamente combinaciones y comparar salidas con fragmentos conocidos del mensaje.
+
+\subsection{``Cribs'' y ``Rizos'': Explotación de Patrones y Simetría}
+
+Turing no solo diseñó el algoritmo; también identificó maneras para reducir el espacio de búsqueda. Utilizando ``cribs'', fragmentos predecibles en los mensajes cifrados (como saludos militares), logró proporcionar puntos iniciales para la búsqueda algorítmica. Además, aprovechó patrones repetitivos en el mapeo de letras (``rizos''), lo que permitió simplificar la búsqueda y optimizar el algoritmo.
+
+\subsection{El Escaneo Paralelo: Acelerando la Búsqueda Exhaustiva}
+
+Para acelerar el descifrado, Turing incorporó el concepto del ``escaneo paralelo''. En lugar de probar configuraciones secuencialmente, la Bombe simulaba múltiples máquinas Enigma simultáneamente. Este enfoque permitió un considerable aumento en la velocidad del descifrado.
+
+\subsubsection{Probabilidad y Optimización}
+
+Turing también aplicó conceptos probabilísticos en el diseño de la Bombe para priorizar configuraciones más probables basándose en frecuencias y datos obtenidos de los ``cribs''. Esta combinación optimizó aún más el proceso, maximizando la eficiencia en un contexto bélico crítico.
+
+A través de estas innovaciones, Alan Turing no solo contribuyó al éxito militar aliado durante la Segunda Guerra Mundial, sino que también sentó las bases para el desarrollo posterior de la computación moderna.
+
+
+\subsubsection{Funcionamiento de la Bombe}
+
+
+\begin{itemize}
+    \item \textbf{Entrada de datos:} Los criptoanalistas proporcionaban a los operadores de la Bombe un "menú" que sugería posibles equivalencias entre letras en claro y letras cifradas. Estos menús se basaban en el análisis de mensajes Enigma interceptados y en el conocimiento de las prácticas operativas alemanas.
+    
+    \item \textbf{Simulación de Enigma:} La Bombe contenía una serie de tambores rotatorios que simulaban la acción de las ruedas de varias máquinas Enigma. Inicialmente, simulaba 10 máquinas, pero las versiones posteriores aumentaron a 12. Los tambores se giraban a alta velocidad, probando todas las posibles configuraciones de las ruedas.
+    
+    \item \textbf{Búsqueda de coincidencias:} La Bombe buscaba coincidencias entre las equivalencias de letras proporcionadas en el menú y los resultados de la simulación de Enigma. Cada vez que encontraba una posible coincidencia, se detenía y la probaba en una réplica de la máquina Enigma.
+    
+    \item \textbf{Verificación manual:} Si la coincidencia producía texto en alemán, se pasaba a los criptoanalistas para su descifrado. De lo contrario, la Bombe continuaba probando otras configuraciones.
+\end{itemize}
+
+\textbf{Puntos adicionales:}
+\begin{itemize}
+    \item La incorporación del "tablero diagonal" de Gordon Welchman en agosto de 1940 mejoró significativamente la velocidad de la Bombe. Esta innovación explotaba la reciprocidad de las encripciones de Enigma: si la letra "P" se cifraba como "C", entonces "C" también se cifraba como "P". Al probar ambas posibilidades simultáneamente, el proceso de búsqueda se aceleró considerablemente.
+    
+    \item A partir de septiembre de 1943, la sección de Hut 8, dedicada a descifrar la Enigma naval, no tuvo más problemas importantes para romper los cifrados. Este éxito se debió en gran parte a la mayor disponibilidad de Bombes y a las mejoras en las técnicas criptoanalíticas.
+\end{itemize}
+
+\subsection{Aportes de Turing a Colossus y su Impacto en la Guerra}
+
+Aunque Alan Turing no participó directamente en el diseño y construcción de Colossus, **sus ideas y trabajos previos en Bletchley Park fueron cruciales para la creación del proyecto**. Colossus, la primera computadora electrónica digital a gran escala del mundo, se construyó para descifrar mensajes cifrados por la máquina Lorenz SZ40/42a/42b (Tunny), utilizada por el alto mando alemán.
+
+Estos son algunos de los aportes de Turing que sentaron las bases para Colossus:
+
+\begin{itemize}
+    \item \textbf{Desarrollo de "Turingery" (Turingismus):} Este método manual, inventado por Turing en 1942, permitía descifrar los patrones de las ruedas de la máquina Tunny utilizando un fragmento de clave obtenido de una "profundidad" (mensajes con la misma configuración). Si bien Turingery era efectivo, era un proceso laborioso y requería mucho tiempo. La necesidad de automatizar este proceso para hacerlo más eficiente impulsó el desarrollo de Colossus.
+    
+    \item \textbf{Introducción del concepto de "Delta":} Turing descubrió que calcular el "delta" de una secuencia de caracteres, es decir, sumar cada par de letras adyacentes utilizando las reglas de la suma binaria, era crucial para el éxito de Turingery. Este concepto se incorporó en el diseño de Colossus, permitiendo a la máquina analizar los mensajes de Tunny de manera más eficaz.
+    
+    \item \textbf{Inspiración para la mecanización:} El éxito de Turing en la ruptura de Enigma mediante la Bombe, una máquina electromecánica que él diseñó, inspiró a Max Newman, líder de la sección dedicada a Tunny (la "Newmanry"), a buscar una solución mecanizada para descifrar los mensajes de Tunny. Colossus nació de la necesidad de procesar la gran cantidad de datos que generaba Tunny, un problema que Turing ya había abordado con la Bombe.
+\end{itemize}
+
+**La superioridad de Colossus en la guerra se debió a su velocidad y capacidad de procesamiento sin precedentes.** A diferencia de la Bombe, que era electromecánica, Colossus utilizaba válvulas termoiónicas (tubos de vacío), lo que le permitía realizar cálculos a una velocidad mucho mayor. Colossus II, por ejemplo, podía procesar 25.000 caracteres alfabéticos por segundo, 125 veces la velocidad de los procesadores mecánicos.
+
+**La información obtenida gracias a Colossus tuvo un impacto significativo en el curso de la guerra.** Permitió a los aliados anticiparse a los movimientos y estrategias del alto mando alemán, obteniendo una ventaja crucial en varios frentes. Algunos ejemplos del impacto de Colossus son:
+
+\begin{itemize}
+    \item \textbf{Información sobre el Día D:} Colossus proporcionó a los aliados información detallada sobre las defensas alemanas en Normandía, lo que contribuyó al éxito del desembarco y al avance de las fuerzas aliadas en Francia.
+    
+    \item \textbf{Conocimiento de las operaciones en el Frente Oriental:} Colossus descifró mensajes que revelaban la disposición de las unidades alemanas en el Frente Oriental, información que se compartió con los soviéticos, aunque sin revelar la fuente.
+    
+    \item \textbf{Seguimiento de las comunicaciones de alto nivel:} Colossus permitió a los aliados interceptar y descifrar mensajes del propio Hitler, obteniendo información estratégica de gran valor.
+\end{itemize}
+
+
+En definitiva, aunque Turing no participó 
+directamente en la construcción de Colossus, 
+sus ideas y trabajos previos fueron fundamentales 
+para su desarrollo. Colossus, a su vez, se 
+convirtió en una herramienta esencial para los 
+aliados durante la guerra, proporcionando 
+información crucial que contribuyó a la victoria.
+
+\subsection{Estimaciones de vidas salvadas y acortamiento de la guerra gracias a Turing}
+
+Según el primer ministro británico Winston Churchill, 
+el trabajo realizado por Turing ayudó a reducir la 
+guerra en Europa entre dos y cuatro años, salvando 
+así catorce millones de vidas. Esta afirmación 
+subraya la importancia del trabajo de Turing en 
+Bletchley Park, donde él y otros criptoanalistas 
+trabajaron incansablemente para descifrar los 
+mensajes alemanes codificados con la máquina Enigma.
+
+Es importante tener en cuenta que estas cifras 
+son estimaciones y existen diferentes opiniones 
+sobre la influencia exacta del descifrado de 
+Enigma en el curso de la guerra. Sin embargo, 
+la mayoría de los historiadores coinciden en 
+que el acceso a la información obtenida a través 
+del descifrado de Enigma brindó una ventaja 
+estratégica significativa a los aliados, 
+contribuyendo a acortar el conflicto y salvar 
+innumerables vidas.
+
+Las fuentes destacan el papel fundamental que 
+jugó la Bombe, diseñada por Turing, en la ruptura 
+del código Enigma. Esta máquina permitió a los 
+aliados descifrar los mensajes de la Enigma naval, 
+utilizada por los submarinos alemanes (U-boats), 
+lo que fue crucial para la victoria en la Batalla 
+del Atlántico. Al conocer las posiciones y planes 
+de los U-boats, los aliados pudieron proteger sus 
+convoyes de suministros y atacar a los submarinos 
+con mayor eficacia, reduciendo las pérdidas en el 
+mar y asegurando el flujo de recursos desde 
+Estados Unidos a Gran Bretaña.
+
+Si bien las fuentes proporcionan la estimación 
+de Churchill sobre el número de vidas salvadas 
+y la duración de la guerra acortada gracias al 
+trabajo de Turing, no se especifican los métodos 
+utilizados para llegar a estas cifras. 
+Es posible que Churchill se basara en análisis 
+de inteligencia, evaluaciones de las operaciones 
+militares y proyecciones sobre la posible duración 
+de la guerra sin la ventaja del descifrado de Enigma.
+
+
+\section{Aportes de Turing al desarrollo de las ciencias de la computación}
+
+El trabajo de Alan Turing no solo fue fundamental para el esfuerzo bélico de los Aliados en la Segunda Guerra Mundial, sino que también sentó las bases para el desarrollo de las ciencias de la computación.
+
+\begin{itemize}
+    \item \textbf{Máquina de Turing:} En 1936, antes de la guerra, Turing publicó un artículo titulado *Sobre los números computables, con una aplicación al problema de decisión*, en el que introdujo el concepto de la \textbf{Máquina de Turing}. Esta máquina, aunque teórica, se considera el modelo fundamental de la computación moderna, ya que define un proceso mecánico capaz de ejecutar cualquier algoritmo matemático. Este trabajo sentó las bases para la teoría de la computabilidad y el desarrollo de las computadoras.
+    
+    \item \textbf{Computadora de programa almacenado:} Durante su tiempo en Bletchley Park, trabajando en el descifrado de Enigma, Turing tuvo la oportunidad de familiarizarse con la tecnología electrónica y ver su potencial para la computación. Esta experiencia, junto con su conocimiento previo de la Máquina de Turing, lo llevó a concebir la \textbf{Automatic Computing Engine (ACE)}, una de las primeras computadoras de programa almacenado. El diseño de la ACE, que incluía detalles sobre la arquitectura, los circuitos y la programación, fue pionero en el campo de la computación. A pesar de que la ACE no se construyó completamente según su diseño original, sus principios se utilizaron en la \textbf{Bendix G15}, considerada la primera computadora personal comercial.
+    
+    \item \textbf{Influencia en la Universidad de Manchester:} Turing se unió al laboratorio de computación de la Universidad de Manchester en 1948, donde tuvo acceso a la \textbf{Manchester Baby}, la primera computadora electrónica de programa almacenado en funcionar. En Manchester, Turing contribuyó al desarrollo del software y la programación de la Baby y su sucesora, la \textbf{Manchester Mark I}. Su trabajo en Manchester ayudó a impulsar el desarrollo de la computación en Gran Bretaña y sentó las bases para la industria informática británica.
+    
+    \item \textbf{El concepto de universalidad:} Turing comprendió desde el principio que una máquina de computación podía ser universal, es decir, capaz de ejecutar cualquier programa que se le proporcionara. Esta idea, que hoy en día parece obvia, fue revolucionaria en una época en la que se diseñaban máquinas específicas para cada tarea. La universalidad de la computación es un principio fundamental en las ciencias de la computación, que permite que las computadoras sean herramientas versátiles y adaptables a diferentes problemas y aplicaciones.
+    
+    \item \textbf{Ideas sobre inteligencia artificial:} Turing también fue un pionero en el campo de la inteligencia artificial. En 1950, publicó un artículo titulado *Computing Machinery and Intelligence* en el que propuso el famoso \textbf{Test de Turing}, una prueba para determinar si una máquina puede exhibir un comportamiento inteligente indistinguible del de un ser humano. Este trabajo, junto con sus ideas sobre la posibilidad de que las máquinas aprendan y modifiquen sus propios programas, sentó las bases para el desarrollo de la inteligencia artificial como disciplina.
+\end{itemize}
+
+Aunque Turing no vivió para ver el pleno desarrollo de la era digital, su trabajo tuvo un impacto profundo y duradero en las ciencias de la computación. Su visión sobre la computación universal, la inteligencia artificial y la naturaleza fundamental de los procesos mecánicos lo convierten en uno de los padres fundadores de la informática moderna.
+
+\section{El reconocimiento tardío del legado de Turing en la lucha contra el fascismo}
+
+El reconocimiento del papel crucial que jugó Alan Turing en la lucha contra el fascismo se vio **opacado por el secretismo que rodeaba su trabajo en Bletchley Park y por la persecución que sufrió debido a su homosexualidad**.
+
+\begin{itemize}
+    \item \textbf{Secretismo:} La información sobre el descifrado de Enigma y el trabajo de Turing en Bletchley Park se mantuvo en secreto durante décadas después de la guerra. Este secretismo impidió que el público conociera la magnitud de su contribución a la victoria aliada.
+    
+    \item \textbf{Homosexualidad:} Turing fue condenado en 1952 por "indecencia grave" debido a su homosexualidad, lo que le impidió continuar con su trabajo científico y lo sometió a una castración química. Esta condena y el estigma asociado a su homosexualidad oscurecieron su figura y contribuyeron a que su legado no se reconociera en su justa medida.
+\end{itemize}
+
+\textbf{El reconocimiento tardío:}
+
+\begin{itemize}
+    \item \textbf{Años 70:} No fue hasta la década de 1970 que la información sobre Bletchley Park y el trabajo de Turing comenzó a salir a la luz. Esto permitió una reevaluación de su figura y una mayor comprensión de su importancia en la guerra.
+    
+    \item \textbf{Disculpas oficiales:} En 2009, el primer ministro británico Gordon Brown se disculpó en nombre del gobierno por el trato "absolutamente injusto" que recibió Turing. En 2013, la reina Isabel II le otorgó un indulto real póstumo.
+\end{itemize}
+
+\textbf{Un legado complejo:}
+
+\begin{itemize}
+    \item \textbf{Reconocimiento incompleto:} A pesar de las disculpas oficiales y el creciente reconocimiento de su trabajo, el legado de Turing sigue siendo complejo. Su condena por homosexualidad y el impacto que tuvo en su vida y su carrera no deben olvidarse.
+    
+    \item \textbf{Importancia para la lucha contra el fascismo:} El trabajo de Turing en Bletchley Park no fue solo una hazaña técnica, sino también una contribución fundamental a la lucha contra el fascismo. Su ingenio y dedicación ayudaron a derrotar a un régimen totalitario y a defender los valores de la libertad y la democracia.
+\end{itemize}
+
+En definitiva, el reconocimiento del legado de Turing en la lucha contra el fascismo llegó tarde, pero es fundamental para comprender la historia de la Segunda Guerra Mundial y para valorar el impacto que tuvo su trabajo en la defensa de la libertad y el desarrollo de la tecnología.
 
 \end{document}
 
